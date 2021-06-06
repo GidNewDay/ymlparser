@@ -37,6 +37,7 @@ class YMLParser
      *
      * @return bool
      */
+	 
     public function open($filename)
     {
         if (file_exists($filename) === false || filesize($filename) === 0):
